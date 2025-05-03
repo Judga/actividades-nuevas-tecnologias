@@ -44,7 +44,7 @@ opcion = st.selectbox(
 )
 
 
-archivo = pd.read_csv("estudiantes_colombia.csv")
+archivo = pd.read_csv("pages/static/datasets/estudiantes_colombia.csv")
 
 # Opción 1
 if opcion == "Ver primeras y últimas 5 filas":
